@@ -1,0 +1,92 @@
+
+
+/* Estilos para el contenedor principal */
+.todo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 800px;
+    margin: 10% auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilos para el título */
+  .todo-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para las columnas */
+  .kanban-column {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 25px;
+    width: 350px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  /* Estilos para las tareas */
+  .kanban-column .todo-item {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .kanban-column .todo-item:hover {
+    background-color: #e5e5e5;
+  }
+  
+  /* Estilos para los encabezados de las columnas */
+  .kanban-column h2 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para el cuadro de entrada de texto */
+  .todo-input {
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Estilos para el botón */
+  .todo-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .todo-button:hover {
+    background-color: #0056b3;
+  }
+
+
+  .List{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 10px;
+    padding: 0%;
+  }
+  
+  .butun{
+    margin-left: 15px;
+  }
