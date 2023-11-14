@@ -27,6 +27,4 @@ test('renderiza la lista de tareas correctamente', () => {
 
   // Verificar que la cantidad de tareas renderizadas es correcta
   expect(screen.getAllByRole('listitem')).toHaveLength(mockTasks.length);
-
-  // También podrías realizar pruebas adicionales según tus necesidades
 });
